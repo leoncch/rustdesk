@@ -1,7 +1,7 @@
 name: Build RustDesk Windows (Flutter Only)
 
 on:
-  workflow_dispatch:
+  workflow_dispatch:   # 👈 手动触发
 
 jobs:
   generate-bridge:
